@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Francis || Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Information About Me -->
+    <meta name="title" content="Njuguna Francis Portfolio" />
+    <meta
+      name="description"
+      content="Francis Njuguna kick-started his journey as a software engineer in 2016.
+      Over the years, he has grown full-blown skills in
+      JavaScript stacks such as React,
+      ReactNative, Nodejs, and more. Connect with him today!"
+    />
+    <meta name="keywords" content="Portfolio, Resume, Experiences" />
+
+    <!-- FAV AND ICONS   -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Google Font-->
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css" />
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="assets/plugins/css/animate.css" />
+    <!-- Owl Carousel CSS-->
+    <link rel="stylesheet" href="assets/plugins/css/owl.css" />
+    <!-- Fancybox-->
+    <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css" />
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="main.scss">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css.map">
+  </head>
+  <body class="dark-vertion black-bg">
+    <div id="App">
+    <!-- Start Loader -->
+    <div class="section-loader">
+      <div class="loader">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- End Loader -->
+    <header
+      class="
+        black-bg
+        mh-header mh-fixed-nav
+        nav-scroll
+        mh-xs-mobile-nav
+        wow
+        fadeInUp
+      "
+      id="mh-header"
+    >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html#mh-home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#mh-about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#mh-service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#mh-skills">Skills</a>
+                </li>
+                <li v-if="loaded" class="nav-item">
+                  <a class="nav-link" href="index.html#mh-portfolio">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#mh-pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#mh-blog">Blog</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#mh-contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+<br>
+<br>
+<br>
+    <section v-if="loaded" class="mh-portfolio" id="mh-portfolio">
+      <div class="container">
+          <div class="sectionTitle">
+            <div
+            class="section-title col-sm-12 wow fadeInUp"
+            data-wow-duration="0.8s"
+            data-wow-delay="0.1s"
+          >
+            <h3>More Projects</h3>
+            <h6><strong><b>NB:</b></strong> Click on the <b>LIVE</b> text or <b>IMAGE</b> to view the project online, and <b>GITHUB</b> to view the repository. It is better to read the summary in every project to understand the project more.</h6>
+             <br>
+          </div>
+           <!-- FRONTEND BOXES---------------------------------------------------- -->
+                  <div class="boxes ">
+                  <div class="box">
+
+                    <div class="webContent">
+    
+                    <div class="webContentTop">
+                        <div>
+                          
+                            <a href="https://contra1.vercel.app/" class="wrapperLink Indicator" target="_blank" ></a>
+                        </div>
+                        <a href="https://contra1.vercel.app/" class="live" target="_blank" ><span>LIVE</span></a>
+                        <a href="https://github.com/FrancisNjuguna/contra" class="wrapperLink" target="_blank" ><i class="uil uil-github-alt">Github</i></a>
+                    </div>
+    
+    
+                    <div class="contentImg">
+                        <a href="https://contra1.vercel.app/" target="_blank"><img src="./projects/contra.png" class="contentImage"></a>
+                    </div>
+    
+                    <div class="wrapperText">
+                     <h2>
+                       CONT<span class="alvin"></span><span class="frank">RA</span>
+                     </h2>
+                        <p>CONTRA is an interior design website for a company. It comprises of modern features and beautiful interior desing images.</p>
+                        <div class="software">
+                          <span>TECHNOLOGIES</span>        
+                      </div>
+                        <div
+              class="mh-about-tag wow fadeInUp"
+              data-wow-duration="0.8s"
+              data-wow-delay="0.3s"
+            >
+              <ul>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>BOOTSTRAP</span></li>
+                <li><span>JAVASCRIPT</span></li>
+                <li><span>SCSS</span></li>
+              </ul>
+            </div>
+                    </div>
+    
+                    </div>
+    
+                </div>
+                <div class="box">
+
+                  <div class="webContent">
+      
+                  <div class="webContentTop">
+                      <div>
+                        
+                          <a href="https://milky1.vercel.app/" class="wrapperLink Indicator" target="_blank" ></a>
+                      </div>
+                      <a href="https://milky1.vercel.app/" class="live" target="_blank" ><span>LIVE</span></a>
+                      <a href="https://github.com/FrancisNjuguna/milky" class="wrapperLink" target="_blank" ><i class="uil uil-github-alt">Github</i></a>
+                  </div>
+      
+      
+                  <div class="contentImg">
+                      <a href="https://milky1.vercel.app/" target="_blank"><img src="./projects/milky.png" class="contentImage"></a>
+                  </div>
+      
+                  <div class="wrapperText">
+                      <h2>
+                       MIL<span class="frank">KY</span>
+                      </h2>
+                      <p>MILKY Is an agricultural website for a dairy company. It features dairy products, ranch and dairy animals. It is beautiful and user friendly.</p>
+                      <div class="software">
+                        <span>TECHNOLOGIES</span>        
+                    </div>
+                      <div
+            class="mh-about-tag wow fadeInUp"
+            data-wow-duration="0.8s"
+            data-wow-delay="0.3s"
+          >
+            <ul>
+              <li><span>HTML</span></li>
+              <li><span>CSS</span></li>
+              <li><span>SCSS</span></li>
+              <li><span>JAVASCRIPT</span></li>
+             
+            </ul>
+          </div>
+                  </div>
+      
+      
+                  </div>
+      
+      
+              </div>
+                  
+               
+              <div class="box">
+
+                <div class="webContent">
+
+                 <div class="webContentTop">
+                     <div >
+                       
+                         <a href="https://indico-omega.vercel.app/" class="wrapperLink Indicator" target="_blank" ></a>
+                        </div>
+                        <a href="https://indico-omega.vercel.app/" class="live" target="_blank" ><span>LIVE</span></a>
+                        
+                     <a href="https://github.com/FrancisNjuguna/indico" class="wrapperLink" target="_blank" ><i class="uil uil-github-alt">Github</i></a>
+                 </div>
+
+               
+
+
+                <div class="contentImg">
+                    <a href="https://indico-omega.vercel.app/" target="_blank"><img src="./projects/indico.png" class="contentImage"></a>
+                </div>
+
+                <div class="wrapperText">
+                 <h2>                  
+                    INDI<span class="frank">CO</span>                   
+                  </h2>
+                    <p>INDICO Is a construction company website. It features the modern features. It is beautiful, user friendly and fully responsive to all media screens.</p>
+                    <div class="software">
+                      <span>TECHNOLOGIES</span>        
+                  </div>
+                    <div
+          class="mh-about-tag wow fadeInUp"
+          data-wow-duration="0.8s"
+          data-wow-delay="0.3s"
+        >
+          <ul>
+            <li><span>HTML</span></li>
+            <li><span>CSS</span></li>
+            <li><span>JAVASCRIPT</span></li>
+            <li><span>BOOTSTRAP</span></li>
+            <li><span>PHP</span></li>
+           
+          </ul>
+        </div>
+                </div>
+
+                </div>
+
+            </div>
+
+            <div class="box">
+
+              <div class="webContent">
+
+               <div class="webContentTop">
+                   <div>
+                       <a href="https://buliten-company.vercel.app/" class="wrapperLink Indicator" target="_blank" ></a>
+                   </div>
+                   <a href="https://buliten-company.vercel.app/" class="live" target="_blank" ><span>LIVE</span></a>
+             <a href="https://github.com/FrancisNjuguna/buliten.company" class="wrapperLink" target="_blank" ><i class="uil uil-github-alt">Github</i></a>
+               </div>
+
+
+              <div class="contentImg">
+                  <a href="https://buliten-company.vercel.app/" target="_blank"><img src="./projects/buletin.png" class="contentImage"></a>
+              </div>
+
+              <div class="wrapperText">
+               
+                  <h2>
+                  
+                     BULET<span class="frank">IN</span>
+                     
+                  </h2>
+                 
+                  <p>BULITEN Is a modern beautiful construction company. Fully responsive to all media devices.</p>
+                  <div class="software">
+                    <span>TECHNOLOGIES</span>        
+                </div>
+                  <div
+        class="mh-about-tag wow fadeInUp"
+        data-wow-duration="0.8s"
+        data-wow-delay="0.3s"
+      >
+        <ul>
+          <li><span>HTML</span></li>
+          <li><span>CSS</span></li>
+          <li><span>JAVASCRIPT</span></li>
+          <li><span>BOOTSTRAP</span></li>
+          <li><span>JQUERY</span></li>
+          <li><span>PHP</span></li>
+        </ul>
+      </div>
+              </div>
+
+
+              </div>
+
+
+          </div>
+         
+          <div class="box">
+
+            <div class="webContent">
+
+             <div class="webContentTop">
+                 <div >
+                   
+                     <a href="https://github.com/FrancisNjuguna" class="wrapperLink Indicator" target="_blank" ></a>
+                 </div>
+                 <a href="https://github.com/FrancisNjuguna" class="live" target="_blank" ><span>LIVE</span></a>
+                 <a href="https://github.com/FrancisNjuguna" class="wrapperLink" target="_blank" ><i class="uil uil-github-alt">Github</i></a>
+             </div>
+
+            <div class="contentImg">
+                <a href="https://github.com/FrancisNjuguna" target="_blank"><img src="http://www.gymfitsports.com/wp-content/uploads/2021/01/coming-soon.gif" class="contentImage"></a>
+            </div>
+
+            <div class="wrapperText">
+                <h2>
+                    MOVIE<span class="frank">APP</span>
+                </h2>
+                <p>MOVIE APP Like netflix coming soon!!!. FULL STACK With the ability to register, login and payment verification using stripe.</p>
+                <div class="software">
+                  <span>TECHNOLOGIES</span>        
+              </div>
+                <div
+      class="mh-about-tag wow fadeInUp"
+      data-wow-duration="0.8s"
+      data-wow-delay="0.3s"
+    >
+      <ul>
+        <li><span>REACT</span></li>
+        <li><span>NODEJS</span></li>
+        <li><span>EXPRESS</span></li>
+        <li><span>MONGODB</span></li>
+        <li><span>FIREBASE</span></li>
+        <li><span>REDUX</span></li>
+        <li><span>TAILWIND</span></li>
+      </ul>
+    </div>
+            </div>
+
+
+            </div>
+
+
+        </div>
+          <div class="box">
+
+            <div class="webContent">
+
+             <div class="webContentTop">
+                 <div >
+                   
+                     <a href="https://github.com/FrancisNjuguna" class="wrapperLink Indicator" target="_blank" ></a>
+                 </div>
+                 <a href="https://github.com/FrancisNjuguna" class="live" target="_blank" ><span>LIVE</span></a>
+                 <a href="https://github.com/FrancisNjuguna" class="wrapperLink" target="_blank" ><i class="uil uil-github-alt">Github</i></a>
+             </div>
+
+            <div class="contentImg">
+                <a href="https://github.com/FrancisNjuguna" target="_blank"><img src="https://static.wixstatic.com/media/6d62b3_bbaeb44fc6b04ead8a943ca65cbfe375~mv2.gif" class="contentImage"></a>
+            </div>
+
+            <div class="wrapperText">
+                <h2>
+                    DASHBO<span class="frank">ARD</span>
+                </h2>
+                <p>FULL STACK Admin dashboard, fully responsive with authentication and real time data preservation</p>
+                <div class="software">
+                  <span>TECHNOLOGIES</span>        
+              </div>
+                <div
+      class="mh-about-tag wow fadeInUp"
+      data-wow-duration="0.8s"
+      data-wow-delay="0.3s"
+    >
+      <ul>
+        <li><span>REACT</span></li>
+        <li><span>NODEJS</span></li>
+        <li><span>EXPRESS</span></li>
+        <li><span>MONGODB</span></li>
+        <li><span>FIREBASE</span></li>
+        <li><span>REDUX</span></li>
+        <li><span>TAILWIND</span></li>
+      </ul>
+    </div>
+            </div>
+
+
+            </div>
+
+
+        </div>
+
+
+         
+                   
+
+                      
+
+                  </div>
+                  <br>
+                  <div class="d-flex justify-content-center">
+                    <a
+                      href="index.html"
+                      target="_blank"
+                      class="btn btn-fill wow fadeInUp mt-3"
+                      data-wow-duration="0.8s"
+                      data-wow-delay="0.4s"
+                      >BACK HOME</a>
+      </div>
+      </div>
+      
+  </section>
+
+
+
+   
+    
+    <!--
+
+
+
+
+===================
+   FOOTER 1
+===================
+-->
+<footer class="mh-footer" id="mh-footer">
+  <div class="map-image image-bg">
+        <div
+          class="col-sm-12 mx-auto mh-copyright wow fadeInUp"
+          data-wow-duration="0.8s"
+          data-wow-delay="0.3s"
+        >
+        
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="mh-copyright text-center">
+                  <p> &copy;All Rights Reserved. With Love ❤️ FrancisNjuguna <span id="year"></span></p>
+              </div>
+          </div>
+          </div>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<!--
+==============
+* JS Files *
+==============
+-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<!-- jQuery -->
+<script src="assets/plugins/js/jquery.min.js"></script>
+<!-- popper -->
+<script src="assets/plugins/js/popper.min.js"></script>
+<!-- bootstrap -->
+<script src="assets/plugins/js/bootstrap.min.js"></script>
+<!-- owl carousel -->
+<script src="assets/plugins/js/owl.carousel.js"></script>
+<!-- validator -->
+<script src="assets/plugins/js/validator.min.js"></script>
+<!-- wow -->
+<script src="assets/plugins/js/wow.min.js"></script>
+<!-- mixin js-->
+<script src="assets/plugins/js/jquery.mixitup.min.js"></script>
+<!-- circle progress-->
+<script src="assets/plugins/js/circle-progress.js"></script>
+<!-- jquery nav -->
+<script src="assets/plugins/js/jquery.nav.js"></script>
+<!-- Fancybox js-->
+<script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+<!-- isotope js-->
+<script src="assets/plugins/js/isotope.pkgd.js"></script>
+<script src="assets/plugins/js/packery-mode.pkgd.js"></script>
+<script src="assets/js/custom-scripts.js"></script>
+</body>
+</html>
