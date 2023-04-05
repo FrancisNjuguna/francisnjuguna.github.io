@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;600&family=Barlow+Condensed:wght@400;500;600&family=Inconsolata:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 /*------------- 
 [Table of contents]
 
@@ -69,7 +71,9 @@
 */
 * {
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale; 
+  font-family: "Advent Pro", sans-serif;
+}
 
 .shadow-1 {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -956,7 +960,7 @@ body {
   padding-top: 30px; }
 
 .home-padding {
-  padding: 180px 0; }
+  padding: 120px 0; }
 
 /*
     ==============
@@ -1132,6 +1136,67 @@ body {
       .mh-about-tag ul li span:hover {
         background-color: transparent !important; }
 
+
+
+        /*
+    ==============
+       Services
+    ==============
+*/
+.mh-service .mh-service {
+  padding: 30px 0;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 30px; }
+  .mh-service .mh-service p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+  }
+  .mh-service .mh-service:hover {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .mh-service .mh-service:hover .btn {
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      background-color: #0ab69a; }
+  .mh-service .mh-service .fa {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: #7af8e4; }
+  .mh-service .mh-service h4 {
+    margin-bottom: 10px;
+    margin-top: 20px; }
+  .mh-service .mh-service h5 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #0bceaf;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .mh-service .mh-service span {
+    opacity: 0.8; }
+  .mh-service .mh-service ul {
+    margin: 30px 0; }
+    .mh-service .mh-service ul li {
+      margin: 2px 0; }
+  .mh-service .mh-service .btn {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+
 /*
     ==============
        SKILLS
@@ -1286,6 +1351,51 @@ body {
     font-size: 14px;
     line-height: 23px;
     margin-bottom: 0; }
+
+/*
+    ==============
+      EDUCATION
+    ==============
+*/
+.mh-education {
+  padding-right: 30px; }
+
+.mh-work {
+  padding-left: 30px; }
+  .mh-work h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 60px; }
+  .mh-work .mh-experience-deatils .mh-work-item {
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+    .mh-work .mh-experience-deatils .mh-work-item:last-child {
+      margin-bottom: 0; }
+    .mh-work .mh-experience-deatils .mh-work-item h4 {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 600; }
+      .mh-work .mh-experience-deatils .mh-work-item h4 a {
+        color: #0bceaf; }
+    .mh-work .mh-experience-deatils .mh-work-item .mh-eduyear {
+      margin: 10px 0;
+      color: #0bceaf; }
+    .mh-work .mh-experience-deatils .mh-work-item span {
+      font-size: 12px;
+      line-height: 22px; }
+    .mh-work .mh-experience-deatils .mh-work-item .work-responsibility li {
+      font-size: 14px;
+      line-height: 23px;
+      margin: 2px 0; }
+      .mh-work .mh-experience-deatils .mh-work-item .work-responsibility li .fa {
+        font-size: 10px;
+        line-height: 23px;
+        margin-right: 10px; }
 
 /*
    
